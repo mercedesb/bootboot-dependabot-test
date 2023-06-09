@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 ruby "3.1.4"
 
-gem 'scan_left', '~> 0.2.1'
+gem 'scan_left', '~> 0.3.1'
 plugin 'bootboot', '~> 0.2.1' 
 
 Plugin.send(:load_plugin, 'bootboot') if Plugin.installed?('bootboot')
